@@ -1,4 +1,5 @@
-![GitHub issues](https://img.shields.io/github/issues/KadeDev/SecretLobby?style=for-the-badge) [![Foo](https://img.shields.io/nuget/v/secretlobby-sl?style=for-the-badge)](https://www.nuget.org/packages/secretlobby-sl/)
+[![Issues](https://img.shields.io/github/issues/KadeDev/SecretLobby?style=for-the-badge)](https://github.com/KadeDev/SecretLobby/issues) 
+[![NuGet](https://img.shields.io/nuget/v/secretlobby-sl?style=for-the-badge)](https://www.nuget.org/packages/secretlobby-sl/)
 
 # Secret Lobby
 An API (getter) to get (lol) the scpsl servers.
