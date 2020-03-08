@@ -1,4 +1,4 @@
-#scpsl thing
+# scpsl thing
 easy pz api:
 
 `List<Server> srvz = LobbyList.GetLobbyList();`
