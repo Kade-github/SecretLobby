@@ -22,7 +22,7 @@ namespace SecretLobby
             using (StreamReader reader = new StreamReader(request.GetResponse().GetResponseStream()))
             {
                 //>not generic type
-                return JsonConvert.DeserializeObject<IEnumerable<IServerImpl>>(reader.ReadToEnd());
+                return JsonConvert.DeserializeObject<IEnumerable<ServerImpl>>(reader.ReadToEnd());
                 //<not generic type
             }
         }

@@ -15,7 +15,7 @@ namespace SecretLobby
         ItemIsReference = false,
         Id = "SecretLobby.IServer"
         )]
-    public sealed class IServerImpl : IServer
+    public sealed class ServerImpl : IServer
     {
         #region JSON Fields
 
