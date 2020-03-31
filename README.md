@@ -4,10 +4,17 @@
 
 
 # Secret Lobby
-An API (getter) to get (lol) the scpsl servers.
+Secret Lobby is an API to get SCP:SL servers from the web api, and use them in C# Applications.
 
-To init it do: `List<Server> Servers = LobbyList.GetLobbyList();`
+# How to use
+Secret Lobby is pretty simple to use.
 
-And control it how you would. 
-
-Also use `Servers[important server].GetInfo()` instead of `Servers[Important server].Info` because hubert was like ima base 64 encode shit so `GetInfo` does that automaticly for you. <3
+Here's an example of how you would call it:
+```csharp
+List<Server> list = LobbyList.GetLobbyList();
+Console.WriteLine("Servers: " + list.Count);
+Console.WriteLine("Top 20 in your area!");
+for (int i = 0; i < 20; i++)
+    Console.WriteLine("#" + (i + 1) + ": " + list[i].ServerInfo);
+Console.Read();
+```
