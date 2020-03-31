@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace SecretLobby
 {
-    internal class Program
+    internal static class Program
     {
         public static void Main(string[] args)
         {
@@ -12,7 +12,7 @@ namespace SecretLobby
             Console.WriteLine("Servers: " + list.Count);
             Console.WriteLine("Top 20 in your area!");
             for (int i = 0; i < 20; i++)
-                Console.WriteLine("#" + (i + 1) + ": " + list[i].GetInfo());
+                Console.WriteLine("#" + (i + 1) + ": " + list[i].ServerInfo);
             Console.Read();
         }
     }
